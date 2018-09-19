@@ -3,26 +3,19 @@
 
 // Creating a shopping cart object
 
-const person = 
+const shoppingcart = {
 
-//Object properties
-{
-    firstname: "Mike",
-    lastname: "Wilson"
+    firstname: "mike",
+    lastname: "wilson",
 }
+    const items = ["Pez $40", "Amethyst $200", "Wisdom $infinte"];
+     for (let i =0; i < items.length; i++) {
+     }
 
-//Object array
-const items = ["Pez", "Amethyst", "Wisdom"]
+    function (shoppingcart) {
+        return `Name:${shoppingcart.firstname} ${shoppingcart.lastname} 
+        Items Purchased:${shoppingcart.items}`;
 
+       }
 
-//Display name
-function describe(person) {
-  return `${person.firstname} ${person.lastname}`;
-}
-console.log("name:"), 
-console.log(describe(person));
-
-for (i = 0; i < items.length; i++)
-    {
-        console.log(items[i]);
-    }
+    console.log(shoppingcart.printshoppingcart());
