@@ -5,18 +5,23 @@
 
 const ShoppingCart = {
 
-    firstname: "mike",
-    lastname: "wilson"
-}
-    const items = ["Pez $15.95", "Amethyst", "Wisdom"]
-    const values = [8, 200, 1000]
+    firstname: "Michael ",
+    lastname: "Wilson"
+    
+};
+    const items = ["Pez" = 95, "Amethyst" = 400, "Wisdom"= 900];
 
-     for (let i =0; i < items.length; i++) {
+     for (let i = 0; i <= 2; i++) {
+         
+     console.log(items[i]);
      }
 
-    function printShoppingCart(){
-        console.log("Shopping Cart List");
-        console.log(ShoppingCart);
+         function printShoppingCart() {
+         console.log(ShoppingCart.firstname + ShoppingCart.lastname);
+         const items;
+     }
+        console.log(printShoppingCart());
 
-    } ShoppingCart.printShoppingCart();
+
+
 
